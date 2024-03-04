@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>@ViewData["Title"] - aspOdev</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="fullscreen">
+        <div class="topbar">
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitch"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+
+            </div>
+            <div class="search">
+                <input type="text" name="search" id="search">
+                <a href="#" class="search-button"><i class="fas fa-search"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row hero">
+            <h1>Web Class</h1>
+        </div>
+        <div class="row menu">
+            <ul>
+                <li><a href="#">ANASAYFA</a></li>
+                <li><a href="/Home/Gezi">GEZİ</a></li>
+                <li><a href="/Home/Kategori">KATEGORİ</a></li>
+                <li><a href="/Home/Hakkımızda">HAKKIMIZDA</a></li>
+                <li><a href="/Home/İletisim">İLETİŞİM</a></li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="banner">
+                <h3>Lorem ipsum dolor site amet abidising tapidi.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="text-content">
+                <h3>Servis Tekliflerimiz </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perspiciatis doloremque facilis,
+                    asperiores consectetur, deserunt voluptates amet, mollitia exercitationem sapiente illo incidunt
+                    eius
+                    nobis cumque. Quod quam maiores voluptate cupiditate.
+                    Dicta sint soluta laboriosam atque voluptate incidunt molestias, tenetur perspiciatis ad harum natus
+                    repudiandae. Temporibus voluptatibus deserunt aspernatur odio, harum recusandae ducimus natus
+                    eveniet
+                </p>
+            </div>
+        </div>
+         @RenderBody()
+        <div class="row card-wrapper">
+            <div class="card">
+                <img src="/images/s1.png" alt="" srcset="">
+                <div class="card-content">
+                    <h4>Akıllı Güvenlik</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, laborum, deserunt aliquid
+                        aspernatur rerum corrupti, aperiam pariatur tempora nesciunt fugit dolor. Pariatur ut vitae
+                        doloremque rem aliquam et debitis quaerat!</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/images/s1.png" alt="" srcset="">
+                <div class="card-content">
+                    <h4>Akıllı Güvenlik</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, laborum, deserunt aliquid
+                        aspernatur rerum corrupti, aperiam pariatur tempora nesciunt fugit dolor. Pariatur ut vitae
+                        doloremque rem aliquam et debitis quaerat!</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/images/s1.png" alt="" srcset="">
+                <div class="card-content">
+                    <h4>Akıllı Güvenlik</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, laborum, deserunt aliquid
+                        aspernatur rerum corrupti, aperiam pariatur tempora nesciunt fugit dolor. Pariatur ut vitae
+                        doloremque rem aliquam et debitis quaerat!</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/images/s1.png" alt="" srcset="">
+                <div class="card-content">
+                    <h4>Akıllı Güvenlik</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, laborum, deserunt aliquid
+                        aspernatur rerum corrupti, aperiam pariatur tempora nesciunt fugit dolor. Pariatur ut vitae
+                        doloremque rem aliquam et debitis quaerat!</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/images/s1.png" alt="" srcset="">
+                <div class="card-content">
+                    <h4>Akıllı Güvenlik</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, laborum, deserunt aliquid
+                        aspernatur rerum corrupti, aperiam pariatur tempora nesciunt fugit dolor. Pariatur ut vitae
+                        doloremque rem aliquam et debitis quaerat!</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/images/s1.png" alt="" srcset="">
+                <div class="card-content">
+                    <h4>Akıllı Güvenlik</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, laborum, deserunt aliquid
+                        aspernatur rerum corrupti, aperiam pariatur tempora nesciunt fugit dolor. Pariatur ut vitae
+                        doloremque rem aliquam et debitis quaerat!</p>
+                </div>
+            </div>
+        </div>
+        <div class="row"></div>
+        <div class="row"></div>
+    </div>
+    <div class="fullscreen"></div>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>
+
+  @RenderBody()
+   
